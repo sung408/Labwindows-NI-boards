@@ -1,0 +1,384 @@
+[Project Header]
+Version = 500
+Platform Code = 4
+Pathname = "/c/insitudata/3 NI-Current Board/Insitutest.prj"
+CVI Dir = "/c/cvi"
+VXIplug&play Framework Dir = "/C/VXIPNP/winnt"
+Number of Files = 8
+Sort Type = "Date"
+Target Type = "Executable"
+Flags = 17
+Drag Bar Left = 295
+Window Top = 131
+Window Left = 33
+Window Bottom = 530
+Window Right = 709
+
+[File 0001]
+File Type = "CSource"
+Path = "/c/InsituData/3 NI-Current Board/InSituMain.c"
+Res Id = 1
+Exclude = False
+Disk Date = 3305047763
+Project Flags = 0
+Window Top = 81
+Window Left = -298
+Window Height = 0
+Window Width = 0
+Source Window State = "1,967,967,967,78,86,87,0,0,120,0,242,0,0,0,36,1514,0,1529,35,"
+Header Dependencies Line0001 = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30"
+Header Dependencies Line0002 = ",31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,5"
+Header Dependencies Line0003 = "7,58,59,60,61,62,63,64,65,66,"
+
+[File 0002]
+File Type = "User Interface Resource"
+Path = "/c/InsituData/3 NI-Current Board/InSituRH.uir"
+Res Id = 2
+Exclude = False
+Disk Date = 3198508434
+Project Flags = 0
+Window Top = 58
+Window Left = 17
+Window Height = 400
+Window Width = 676
+
+[File 0003]
+File Type = "Include"
+Path = "/c/InsituData/3 NI-Current Board/InSituRH.h"
+Res Id = 3
+Exclude = False
+Disk Date = 3198112962
+Project Flags = 0
+Window Top = 86
+Window Left = -355
+Window Height = 0
+Window Width = 0
+Source Window State = "1,74,74,74,45,45,45,0,0,97,0,0,0,0,0,29,335,0,340,27,"
+
+[File 0004]
+File Type = "Include"
+Path = "/c/InsituData/3 NI-Current Board/InSituMain.h"
+Res Id = 4
+Exclude = False
+Disk Date = 3178253404
+Project Flags = 0
+Window Top = 54
+Window Left = 10
+Window Height = 0
+Window Width = 0
+Source Window State = "1,28,28,28,23,23,23,0,0,80,0,0,0,0,0,27,55,0,69,50,"
+
+[File 0005]
+File Type = "Library"
+Path = "/c/InsituData/3 NI-Current Board/cvi_db.lib"
+Res Id = 5
+Exclude = False
+Disk Date = 2992008394
+Project Flags = 0
+Window Top = 0
+Window Left = 0
+Window Height = 0
+Window Width = 0
+
+[File 0006]
+File Type = "Function Panel"
+Path = "/c/InsituData/3 NI-Current Board/cvi_db.fp"
+Res Id = 6
+Exclude = False
+Disk Date = 2992002748
+Project Flags = 0
+Window Top = 0
+Window Left = 0
+Window Height = 0
+Window Width = 0
+
+[File 0007]
+File Type = "CSource"
+Path = "/c/Bar_RH_New/BAR_RH_TEST.c"
+Res Id = 7
+Exclude = False
+Disk Date = 0
+Project Flags = 0
+Not In Project = True
+Window Top = 23
+Window Left = 63
+Window Height = 0
+Window Width = 0
+Source Window State = "1,728,728,728,12,29,12,0,0,81,0,0,0,0,0,25,665,0,687,32,"
+Breakpoint 0001 = "894,0,disabled,"
+Breakpoint 0002 = "905,0,disabled,"
+
+[File 0008]
+File Type = "CSource"
+Path = "/c/CVI_PROJ/Bar_RH_Tester2/BAR_RH_TEST.c"
+Res Id = 8
+Exclude = False
+Disk Date = 0
+Project Flags = 0
+Not In Project = True
+Window Top = 114
+Window Left = 51
+Window Height = 0
+Window Width = 0
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,24,240,0,242,0,"
+Breakpoint 0001 = "243,0,disabled,"
+
+[Compiler Options]
+Default Calling Convention = "cdecl"
+Max Number Of Errors = 10
+Require Prototypes = True
+Require Return Values = True
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+
+[Run Options]
+Stack Size = 250000
+Debugging Level = "None"
+Save Changes Before Running = "Always"
+Break On Library Errors = False
+Hide Windows = False
+Unload DLLs After Each Run = True
+Check Disk Dates Before Each Run = True
+Break At First Statement = False
+
+[Build Options]
+DLL Debugging Level = "None"
+
+[Compiler Defines]
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Command Line Args]
+Command Line Args = ""
+
+[Include Paths]
+Include Path 1 = "/c/cvi/include"
+Include Path 2 = "/c/NIDAQWin95/include"
+Include Path 3 = "/c/cvi/include"
+Include Path 4 = "/c/cvi401/include"
+
+[Watch Point 1]
+Watch Expression = "SSetting.Voltage"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 2]
+Watch Expression = "SSetting.Voltage"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 3]
+Watch Expression = "MAINMENU_CH1"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 4]
+Watch Expression = "VIEWCOLDR_R_1"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 5]
+Watch Expression = "MAINMENU_CH1"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 6]
+Watch Expression = "MAINMENU_CH1"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 7]
+Watch Expression = "MAINMENU_NAME"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 8]
+Watch Expression = "MAINMENU_CH1"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 9]
+Watch Expression = "MAINMENU_CH1"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 10]
+Watch Expression = "ATTR_LABEL_TEXT"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 11]
+Watch Expression = "EVENT_COMMIT"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 12]
+Watch Expression = "MAINMENU"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 13]
+Watch Expression = "MAINMENU_CH1"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 14]
+Watch Expression = "MAINMENU_CH1"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Global To Project"
+DllName = ""
+
+[Watch Point 15]
+Watch Expression = "EVENT_COMMIT"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Local"
+File = "InSituMain.c"
+Function = "DeleteSelectedMeasurement"
+DllName = ""
+
+[Watch Point 16]
+Watch Expression = "VReadBuf"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Local"
+File = "InSituMain.c"
+Function = "R_Testing"
+DllName = ""
+
+[Included Headers]
+Header 0066 = "/c/InsituData/3 NI-Current Board/InSituRH.h"
+Header 0065 = "/c/InsituData/3 NI-Current Board/InSituMain.h"
+Header 0001 = "/c/cvi/include/cvirte.h"
+Header 0002 = "/c/cvi/include/cvidef.h"
+Header 0003 = "/c/InsituData/3 NI-Current Board/cvi_db.h"
+Header 0004 = "/c/cvi/sdk/include/ole2.h"
+Header 0005 = "/c/cvi/sdk/include/pshpack8.h"
+Header 0006 = "/c/cvi/sdk/include/winerror.h"
+Header 0007 = "/c/cvi/sdk/include/objbase.h"
+Header 0008 = "/c/cvi/sdk/include/rpc.h"
+Header 0009 = "/c/cvi/sdk/include/windows.h"
+Header 0010 = "/c/cvi/include/ansi/stdarg.h"
+Header 0011 = "/c/cvi/sdk/include/windef.h"
+Header 0012 = "/c/cvi/sdk/include/winnt.h"
+Header 0013 = "/c/cvi/include/ansi/ctype.h"
+Header 0014 = "/c/cvi/sdk/include/pshpack4.h"
+Header 0015 = "/c/cvi/sdk/include/poppack.h"
+Header 0016 = "/c/cvi/sdk/include/pshpack1.h"
+Header 0017 = "/c/cvi/include/ansi/string.h"
+Header 0018 = "/c/cvi/sdk/include/winbase.h"
+Header 0019 = "/c/cvi/sdk/include/wingdi.h"
+Header 0020 = "/c/cvi/sdk/include/pshpack2.h"
+Header 0021 = "/c/cvi/sdk/include/winuser.h"
+Header 0022 = "/c/cvi/sdk/include/winnls.h"
+Header 0023 = "/c/cvi/sdk/include/wincon.h"
+Header 0024 = "/c/cvi/sdk/include/winver.h"
+Header 0025 = "/c/cvi/sdk/include/winreg.h"
+Header 0026 = "/c/cvi/sdk/include/winnetwk.h"
+Header 0027 = "/c/cvi/sdk/include/winsvc.h"
+Header 0028 = "/c/cvi/sdk/include/mcx.h"
+Header 0029 = "/c/cvi/sdk/include/imm.h"
+Header 0030 = "/c/cvi/sdk/include/rpcdce.h"
+Header 0031 = "/c/cvi/sdk/include/rpcdcep.h"
+Header 0032 = "/c/cvi/sdk/include/rpcnsi.h"
+Header 0033 = "/c/cvi/sdk/include/rpcnterr.h"
+Header 0034 = "/c/cvi/sdk/include/rpcndr.h"
+Header 0035 = "/c/cvi/sdk/include/rpcnsip.h"
+Header 0036 = "/c/cvi/include/ansi/stdlib.h"
+Header 0037 = "/c/cvi/sdk/include/wtypes.h"
+Header 0038 = "/c/cvi/sdk/include/unknwn.h"
+Header 0039 = "/c/cvi/sdk/include/objidl.h"
+Header 0040 = "/c/cvi/sdk/include/cguid.h"
+Header 0041 = "/c/cvi/sdk/include/oleauto.h"
+Header 0042 = "/c/cvi/sdk/include/oaidl.h"
+Header 0043 = "/c/cvi/sdk/include/oleidl.h"
+Header 0044 = "/c/cvi/include/userint.h"
+Header 0045 = "/c/cvi/include/ansi_c.h"
+Header 0046 = "/c/cvi/include/ansi/assert.h"
+Header 0047 = "/c/cvi/include/ansi/errno.h"
+Header 0048 = "/c/cvi/include/ansi/float.h"
+Header 0049 = "/c/cvi/include/ansi/limits.h"
+Header 0050 = "/c/cvi/include/ansi/locale.h"
+Header 0051 = "/c/cvi/include/ansi/math.h"
+Header 0052 = "/c/cvi/include/ansi/setjmp.h"
+Header 0053 = "/c/cvi/include/ansi/signal.h"
+Header 0054 = "/c/cvi/include/ansi/stddef.h"
+Header 0055 = "/c/cvi/include/ansi/stdio.h"
+Header 0056 = "/c/cvi/include/ansi/time.h"
+Header 0057 = "/c/cvi/include/formatio.h"
+Header 0058 = "/c/cvi/include/analysis.h"
+Header 0059 = "/c/cvi/include/dataacq.h"
+Header 0060 = "/c/cvi/include/nidaqerr.h"
+Header 0061 = "/c/cvi/include/olderror.h"
+Header 0062 = "/c/cvi/include/nidaqcns.h"
+Header 0063 = "/c/cvi/include/regdefs.h"
+Header 0064 = "/c/cvi/include/utility.h"
+Max Header Number = 66
+
+[Create Executable]
+Executable File = "/c/insitudata/3 NI-Current Board/3NI Board-MAGIC.exe"
+Icon File = ""
+Application Title = "In-Situ EM"
+Numeric File Version = "2,0,0,0"
+Numeric Prod Version = "2,0,0,0"
+Comments = ""
+Company Name = ""
+File Version = "2.0"
+Legal Copyright = "Copyright ©  2002"
+Legal Trademarks = ""
+Private Build = ""
+Product Version = "2.0"
+Special Build = ""
+DLL Exports = "Include File Symbols"
+DLL Import Library Choice = "Gen Lib For Current Mode"
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+Type Lib FP File = ""
+Type Lib Guid = ""
+Instrument Driver Support Only = False
+
+[External Compiler Support]
+Create UIR Callbacks File = False
+Using LoadExternalModule = False
+Create Project Symbols File = True
+UIR Callbacks Obj File = ""
+Project Symbols H File = ""
+Project Symbols Obj File = ""
+
+[DLL Debugging Support]
+External Process Path = ""
+
